@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F8F1F1;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.font-primary{
+  font-family: 'Gotham';
+  src: url('./assets/fonts/Gotham-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.font-secondary{
+  font-family: 'Gotham';
+  src: url('./assets/fonts/Gotham/GothamBook.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.color-primary{
+  color: #1070B7 !important;
+}
+
+.color-secondary{
+  color: #A3C959 !important;
+}
+.color-third{
+  color: #26AC75
+}
+.color-fourth{
+  color: #716F6F
+}
+
+.fs-10{
+  font-size: 16px;
+}
+
+.fs-12{
+  font-size: 18px;
+}
+
+.fs-14{
+  font-size: 20px;
+}
+
+.fs-16{
+  font-size: 22px;
+}
+
+.fs-20{
+  font-size: 26px;
+}
+
+.fs-24{
+  font-size: 30px;
+}
+
+.fs-32{
+  font-size: 60px;
+}
+
+.py-c{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
