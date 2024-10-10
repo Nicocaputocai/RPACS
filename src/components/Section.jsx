@@ -1,10 +1,12 @@
 import React from 'react';
 import '../App.css';
 import { Container } from 'react-bootstrap';
+import carbon1 from "../assets/image/carbon1.jpg"
 
 const ObjectivesSection = () => {
   return (
   <Container fluid className="objectives-container">
+    
     <h2 style={{position:"absolute",textAlign: "center", alignContent:"center"}}>Objetivos</h2>
     <div className="objectives-container">
       

@@ -1,7 +1,7 @@
 /* General Styles */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f9f9f9;
+
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -18,20 +18,6 @@ p {
   font-size: 18px;
 }
 
-button {
-  background-color: #26726b; /* Verde oscuro */
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 18px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-button:hover {
-  background-color: #a3c959; /* Verde claro */
-  transform: translateY(-3px);
-}
 
 .hero-container {
   background-image: url("./assets/Congreso.jpg"); /* Asegúrate de que esta ruta sea correcta */
@@ -104,7 +90,6 @@ button:hover {
   justify-content: center;
   gap: 40px;
   padding: 80px 20px;
-  background-color: #f0f0f0; /* Fondo claro */
 }
 
 .objective-card {
@@ -160,7 +145,7 @@ button:hover {
 }
 
 .contact-form-container button {
-  background-color: #a3c959; /* Verde claro */
+  background-color: #A3C959; /* Verde claro */
   color: #fff;
   border: none;
   padding: 15px 30px;
@@ -170,7 +155,7 @@ button:hover {
 }
 
 .contact-form-container button:hover {
-  background-color: #26726b; /* Verde oscuro */
+  background-color: #26AC75; /* Verde oscuro */
 }
 
 .climate-action-section {
@@ -218,15 +203,28 @@ p {
 
 .logo-text {
   font-weight: bold;
-  color: #26726b; /* Color del texto del logo */
+  color: #1070B7;/* Color del texto del logo */
   margin-left: 10px; /* Espacio entre el logo y el texto */
 }
 
 .nav-link {
-  color: #26726b; /* Color del texto del enlace */
+  color:#1070B7; /* Color del texto del enlace */
   margin: 0 15px; /* Espacio entre los enlaces */
 }
 
 .nav-link:hover {
-  color: #a3c959; /* Cambiar color al pasar el ratón */
+  color: #26AC75; /* Cambiar color al pasar el ratón */
+}
+
+.apple-green{
+  color: #A3C959; 
+}
+.green{
+  color: #26AC75;
+}
+.blue{
+  color:#1070B7;
+}
+.grey{
+  color: #716F6F;
 }

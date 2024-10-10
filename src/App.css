@@ -1,7 +1,7 @@
 /* General styles */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4;
+
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -16,18 +16,7 @@ p {
   line-height: 1.6;
 }
 
-button {
-  background-color: #26726b; /* Verde oscuro */
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  transition: all 0.3s ease;
-}
 
-button:hover {
-  background-color: #a3c959; /* Verde claro */
-  transform: translateY(-3px);
-}
 
 /* Header styles */
 .header-container {

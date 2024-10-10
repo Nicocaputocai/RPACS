@@ -1,36 +1,19 @@
 import React, { useEffect, useState } from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
-import Logo from '../assets/RPACS_COLOR PNG.png';
+import { Navbar, Nav, Container, Image } from 'react-bootstrap';
+import Logo from '../assets/ISO_PNG_Color.png'; // Asegúrate de que la ruta sea correcta
 import '../App.css';
 
 const NavigationBar = () => {
-  const [scrolled, setScrolled] = useState(false);
-
-  const handleScroll = () => {
-    const offset = window.scrollY;
-    if (offset > 50) {
-      setScrolled(true);
-    } else {
-      setScrolled(false);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
   return (
-    <Navbar expand="lg" className={`navbar-custom ${scrolled ? 'scrolled' : ''}`}>
+    <Navbar expand="lg" sticky='top' style={{backgroundColor:"white"}}>
       <Container>
         <Navbar.Brand href="#home" className="d-flex align-items-center">
-          <img
+        <Image
+          fluid
             src={Logo}
-            width="40"
-            height="40"
-            className="d-inline-block align-top me-2"
+            width="80 vw"
+            height="70vh"
+            className="d-inline-block align-top"
             alt="Logo"
           />
           <span className="logo-text">RPACS</span>

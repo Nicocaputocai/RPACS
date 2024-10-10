@@ -4,7 +4,7 @@ import '../App.css'; // Asegúrate de incluir tu archivo CSS
 
 const ClimateActionSection = () => {
   return (
-    <Container fluid className="climate-action-section">
+    <Container fluid className="climate-action-section" id='parliaments'>
       <Row className="text-center">
         <Col xs={12}>
           <h2 className="section-title">El Rol de los Parlamentos Frente a la Crisis Climática</h2>
