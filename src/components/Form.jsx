@@ -42,7 +42,10 @@ const ContactForm = () => {
 
   return (
     <div className="contact-form-container" id='contact'>
-      <h2>Contáctanos</h2>
+      <h2>Cómo Unirse</h2>
+      <p>
+      Invitamos todos los parlamentos de la Argentina a unirse a REPACS. Adhiérete a nuestra red y participa en la creación de un futuro sostenible.
+      </p>
 
       <Form noValidate validated={validated} onSubmit={handleSubmit}>
         <Form.Group controlId="validationCustom01" className="mb-3">

@@ -11,16 +11,16 @@ const ObjectivesSection = () => {
     <div className="objectives-container">
       
       <div className="objective-card">
+        <h3>Capacitación y Formación</h3>
+        <p>Desarrollamos programas de capacitación dirigidos a legisladores y funcionarios públicos para comprender los problemas socio ambinetales. Un componente central de estas capacitaciones es la Ley Yolanda, que establece la obligación de formar a los funcionarios en educación ambiental y sostenibilidad. Esta ley es esencial para fortalecer las capacidades de quienes toman decisiones en el ámbito público, asegurando que implementen políticas efectivas para enfrentar los desafíos climáticos y promover el desarrollo sostenible.</p>
+      </div>
+      <div className="objective-card">
+        <h3>Estrategias Legislativas</h3>
+        <p>Colaboramos creación y evaluación de un marco normativo que promueva la sostenibilidad y la acción climática. </p>
+      </div>
+      <div className="objective-card">
         <h3>Diplomacia Parlamentaria</h3>
-        <p>Facilitamos el diálogo y la colaboración entre parlamentos para abordar los desafíos del cambio climático de manera conjunta.</p>
-      </div>
-      <div className="objective-card">
-        <h3>Intercambio de Conocimientos</h3>
-        <p>Organizamos talleres y diálogos para compartir prácticas efectivas de mitigación y adaptación al cambio climático.</p>
-      </div>
-      <div className="objective-card">
-        <h3>Políticas Innovadoras</h3>
-        <p>Apoyamos el desarrollo de políticas públicas que incorporen tecnologías sostenibles y enfoques innovadores.</p>
+        <p>Fomentamos la diplomacia parlamentaria, participando en foros internacionales y cooperaciones donde los poderes legislativos pueden intercambiar experiencias y mejores prácticas. Estas plataformas son esenciales para fortalecer la colaboración global en la lucha contra el cambio climático y promover un enfoque conjunto hacia el desarrollo sostenible.</p>
       </div>
     </div>
 </Container>
