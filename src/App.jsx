@@ -7,6 +7,8 @@ import Section3d from "./components/Section"
 import Mision3d from "./components/Mision"
 import ClimateActionSection3D from './components/ClimateActionSection';
 import NavigationBar from './components/NavigationBar';
+import { News } from './components/News';
+
 
 function App() {
   return (
@@ -16,7 +18,9 @@ function App() {
   <Mision3d />
   <Section3d />
   <ClimateActionSection3D />
+  {/* <News /> */}
   <FormD3 />
+
   </div>
   );
 }
