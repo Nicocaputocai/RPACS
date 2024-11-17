@@ -7,7 +7,10 @@ import Objetives from "./components/Objetives"
 import Mision3d from "./components/Mision"
 import ClimateActionSection3D from './components/ClimateActionSection';
 import NavigationBar from './components/NavigationBar';
+import Programs from './components/Programs.jsx';
+import Background from './components/Background.jsx';
 import { News } from './components/News';
+import { Footer } from './components/Footer.jsx';
 
 
 function App() {
@@ -17,9 +20,13 @@ function App() {
   <Banner3d />
   <Mision3d />
   <Objetives />
+  <Programs />
   <ClimateActionSection3D />
   {/* <News /> */}
+
+  <Background />
   <FormD3 />
+  <Footer />
 
   </div>
   );

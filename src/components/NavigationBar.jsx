@@ -23,8 +23,9 @@ const NavigationBar = () => {
           <Nav className="ms-auto">
             <Nav.Link href="#mission" className="nav-link">Misión</Nav.Link>
             <Nav.Link href="#objectives" className="nav-link">Objetivos</Nav.Link>
-            <Nav.Link href="#parliaments" className="nav-link">Parlamentos</Nav.Link>
-            <Nav.Link href='#novedades' className="nav-link">Novedades</Nav.Link>
+            <Nav.Link href="#acciones" className="nav-link">Proyectos y Acciones</Nav.Link>
+            <Nav.Link href="#parliaments" className="nav-link">Parlamento Sostenible</Nav.Link>
+            <Nav.Link href='#antecedentes' className="nav-link">Antecedentes</Nav.Link>
             <Nav.Link href="#contact" className="nav-link">Contacto</Nav.Link>
             
           </Nav>

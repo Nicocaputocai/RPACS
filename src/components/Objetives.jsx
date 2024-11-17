@@ -1,7 +1,6 @@
 import React from 'react';
 import '../App.css';
 import { Container } from 'react-bootstrap';
-import carbon1 from "../assets/image/carbon1.jpg"
 
 const ObjectivesSection = () => {
   return (
@@ -20,7 +19,7 @@ const ObjectivesSection = () => {
       </div>
       <div className="objective-card">
         <h3>Diplomacia Parlamentaria</h3>
-        <p>Fomentamos la diplomacia parlamentaria, participando en foros internacionales y cooperaciones donde los poderes legislativos pueden intercambiar experiencias y mejores prácticas.</p>
+        <p  id='acciones'> Fomentamos la diplomacia parlamentaria, participando en foros internacionales y cooperaciones donde los poderes legislativos pueden intercambiar experiencias y mejores prácticas.</p>
       </div>
     </div>
 </Container>

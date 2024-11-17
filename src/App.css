@@ -160,3 +160,91 @@ p {
   font-size: 16px;
   color: #666;
 }
+
+
+.programa-sostenible {
+  background-color: #e8f5e9; /* Suave verde azulado */
+  padding: 60px 20px;
+}
+
+.section-title {
+  font-size: 36px;
+  color: #1070b7;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.program-step {
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.program-step:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.program-icon {
+  width: 80px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.program-title {
+  font-size: 20px;
+  color: #26726b;
+  margin-bottom: 10px;
+}
+
+.program-text {
+  font-size: 16px;
+  color: #666;
+}
+
+.btn-primary {
+  background-color: #26726b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #a3c959;
+  transform: translateY(-3px);
+}
+
+.antecedentes {
+  background-color: #e8f5e9; /* Fondo blanco limpio */
+  padding: 60px 20px;
+}
+
+.section-title {
+  font-size: 36px;
+  color: #1070b7;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.logro-title {
+  font-size: 24px;
+  color: #26726b;
+  margin-bottom: 10px;
+}
+
+.logro-text {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}

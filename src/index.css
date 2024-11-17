@@ -87,6 +87,8 @@ p {
 
 /* Objectives Section */
 .objectives-container {
+  
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -94,7 +96,7 @@ p {
 }
 
 .objective-card {
-  background-color: #fff;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -160,7 +162,7 @@ p {
 }
 
 .climate-action-section {
-  background-color: #ffffff; /* Fondo blanco */
+  background-color: #ffffff; /* Verde claro */
   padding: 60px 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
 }
